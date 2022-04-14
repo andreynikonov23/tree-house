@@ -1,0 +1,203 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');
+:root{
+    --green: #7cc576;
+    --gray-in-background: #555555;
+    --gray: #777777;
+    --social: #f9f9f9;
+    --sub-head: #cccccc;
+    --black: #222222;
+    --just-relax-block: #e9e9e9;
+    --quote: #f9f9f9;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.margin{
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 115px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 115px;
+}
+.logo-block{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--gray-in-background);
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+header .fa{
+    display: inline-block;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--green);
+    border-radius: 100%;
+    color: white;
+    margin-right: 5px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: var(--gray);
+}
+.list{
+    cursor: pointer;
+}
+.list:not(:last-child){
+    margin-right: 35px;
+}
+.tile-section{
+    width: 100%;
+    height: 530px;
+    background-image: url(img/da.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 100px;
+}
+.tile-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+}
+.tile-subhead{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: var(--sub-head);
+    position: relative;
+    top: 40px;
+}
+.view-portfolio{
+    margin-top: 100px;
+    border: 0;
+    height: 60px;
+    width: 220px;
+    background-color: var(--green);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.view-portfolio:hover{
+    background-color: white;
+    color: var(--black);
+}
+.heading{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+.subhead{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: var(--sub-head);
+    margin-bottom: 90px;
+}
+.blocks{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    grid-gap: 50px;
+    margin-bottom: 100px;
+}
+.char{
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 40px;
+}
+.head-block{
+    color: var(--black);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.text-block{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: var(--gray);
+}
+.just-relax{
+    width: 100%;
+    height: 616px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.first{
+    background-color: var(--just-relax-block);
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: end;
+}
+.first img{
+    margin-top: 100px;
+}
+.second{
+    background-image: url(img/just\ relax.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+.jr-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 45px;
+}
+.ampersant{
+    color: var(--green);
+}
+.jr-text{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color: var(--sub-head);
+    margin-bottom: 20px;
+}
+.jr-list{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color: var(--sub-head);
+    margin-bottom: 10px;
+}
+.jr-button{
+    margin-top: 50px;
+    height: 60px;
+    border: 0;
+    background-color: var(--green);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    cursor: pointer;
+}
+.jr-button:hover{
+    background-color: white;
+    color: var(--black);
+}
