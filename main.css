@@ -142,15 +142,16 @@ nav{
 }
 .just-relax{
     width: 100%;
-    height: 616px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    
 }
 .first{
     background-color: var(--just-relax-block);
     display: grid;
     grid-template-columns: 1;
     justify-content: end;
+    
 }
 .first img{
     margin-top: 100px;
@@ -200,4 +201,60 @@ nav{
 .jr-button:hover{
     background-color: white;
     color: var(--black);
+}
+.marg{
+    margin-top: 100px;
+}
+.marg-butt{
+    margin-bottom: 90px;
+}
+.latest-project{
+    height: 570px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.ipad{
+    
+}
+.lists:first-child{
+    margin-top: 25px;
+}
+.lists{
+    margin-bottom: 10px;
+}
+.lists:last-child{
+    margin-bottom: 15px;
+}
+.circle{
+    display: inline-block;
+    width: auto;
+    margin-right: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    text-align: center;
+    line-height: 85px;
+    color: var(--black);
+    border: 3px solid var(--black);
+}
+.txt{
+    display: inline-block;
+    width: 70%;
+}
+.txt .head-block{
+    margin-bottom: 0;
+}
+.c3{
+    padding-left: 4px;
+}
+.info{
+    margin-bottom: 25px;
+}
+.details{
+    color: var(--green);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
 }
